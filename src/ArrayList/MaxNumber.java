@@ -9,16 +9,16 @@ public class MaxNumber {
         System.out.print("Enter ArrayList size: ");
         int size = sc.nextInt();
         ArrayList<Integer> list = new ArrayList<>();
-        System.out.println("Enter "+size+" ArrayList Elements");
-        for (int i = 0; i <  size; i++) {
-            list.add( sc.nextInt());
+        System.out.println("Enter " + size + " ArrayList Elements");
+        for (int i = 0; i < size; i++) {
+            list.add(sc.nextInt());
         }
         sc.close();
         int max = Integer.MIN_VALUE;
         for (int i = 0; i < size; i++) {
-            if (list.get(i)>max)
-                max=list.get(i);
+            if (list.get(i) > max)
+                max = list.get(i);
         }
-        System.out.println("The Maximum number in a List is: "+max+".");
+        System.out.println("The Maximum number in a List is: " + max + ".");
     }
 }

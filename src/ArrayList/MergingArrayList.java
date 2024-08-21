@@ -8,7 +8,7 @@ public class MergingArrayList {
         Scanner sc = new Scanner(System.in);
         ArrayList<Integer> a1 = new ArrayList<>();
         ArrayList<Integer> a2 = new ArrayList<>();
-        ArrayList<Integer> merged= new ArrayList<>();
+        ArrayList<Integer> merged = new ArrayList<>();
         System.out.println("Enter 5 Elements for arrayList 1: ");
         for (int i = 0; i < 5; i++) {
             a1.add(sc.nextInt());
@@ -21,7 +21,7 @@ public class MergingArrayList {
         merged.addAll(a1);
         merged.addAll(a2);
         for (int item : merged) {
-            System.out.print(item+" ");
+            System.out.print(item + " ");
         }
     }
 }
